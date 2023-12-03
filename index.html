@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    
+      
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="card-presentation">
+            <div class="inner-card-presentation">
+              <div class="card-area front-side">
+                <div class="inner-card">
+                  <div class="card-before">
+                    <div class="card-username">
+                      <h1>KARTE EINSTECKEN</h1>
+                    </div>
+
+                    <div class="card-enter-area">
+                      <span class="card-enter-hole"></span>
+                    </div>
+                    <div class="punce-area">
+                      <div class="card-img">
+                        <img src="assets/images/card.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-area back-side">
+                <div class="inner-card">
+                  <div class="card-before">
+                    <div class="card-username">
+                      <div class="img-card-inner">
+                        <img src="assets/images/card-horizontal.png" alt="" />
+                        <h5 class="card-number">000 0000 0000</h5>
+                        <p class="cardholder-name">TAO HUANG</p>
+                      </div>
+                    </div>
+
+                    <div class="user-info">
+                       <div class="bank-blance">
+                         <h4>KONTOSTAND</h4>
+                            <div class="balance-field field">
+                                <div class="icon-area">
+                                    <i class="fa-solid fa-coins"></i>
+                                </div>
+                                <div class="balance">
+                                    <h3>
+                                    <span class="blnc">6.548,35</span><span class="doller-sign"> $</span>
+                                    </h3>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="btn-area">
+                        <div class="inner-btn">
+                            <a href="#" class="btn" id="panelBtnOne">
+                               <span class="icon-area download">
+                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                               </span>
+                               <span class="btn-text">AUSZAHLEN</span>
+                            </a>
+                            <a href="#" class="btn" id="panelBtnTwo">
+                                <span class="icon-area">
+                                 <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                </span>
+                                <span class="btn-text">EINZAHLEN</span>                
+                             </a>
+                             <a href="#" class="btn" id="panelBtnThree">
+                                <span class="icon-area"> 
+                                    <i class="fa-solid fa-money-bill-transfer"></i>
+                                </span>
+                                <span class="btn-text">ÜBERWEISEN</span>
+                             </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="card-panel-area" id="hiddenSection">
+            <!-- ============panel one start============= -->
+            <div id="panel1" class="inner-card-panel">
+                <div class="title-area">
+                    <div class="title-left">
+                        <img src="assets/images/door-open.png" alt="">
+                    </div>
+                    <div class="title-middle">
+                        <h2>HERZLICH WILLKOMMEN</h2>
+                    </div>
+                    <div class="title-right">
+                        <div class="currency">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="transection-area">
+                    <h3 class="tr-title">TRANSACTIONEN</h3>
+                    <div class="inner-transection">
+                        <ul class="tr-list">
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--============ panel one close==============-->
+
+            <!-- ============panel two start============= -->
+            <div id="panel2" class="inner-card-panel">
+                <h3 class="title-top">BETRAG AUSZAHLEN</h3>
+                <div class="title-area">
+                    <div class="title-left keyboard">
+                        <img src="assets/images/keyboard.png" alt="">
+                    </div>
+                    <div class="title-middle">
+                        <h2><input type="text" value="999.999,99"></h2>
+                    </div>
+                    <div class="title-right">
+                        <div class="currency">
+                            <span>$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="transection-area">
+                    <h3 class="tr-title">TRANSACTIONEN</h3>
+                    <div class="inner-transection">
+                        <ul class="tr-list">
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--============ panel two close =============-->
+
+             <!-- ============panel two start============= -->
+             <div id="panel3" class="inner-card-panel">
+                <h3 class="title-top">BETRAG EINZAHLEN</h3>
+                <div class="title-area">
+                    <div class="title-left keyboard">
+                        <img src="assets/images/keyboard.png" alt="">
+                    </div>
+                    <div class="title-middle">
+                        <h2><input type="text" value="999.999,99"></h2>
+                    </div>
+                    <div class="title-right">
+                        <div class="currency">
+                            <span>$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="transection-area">
+                    <h3 class="tr-title">TRANSACTIONEN</h3>
+                    <div class="inner-transection">
+                        <ul class="tr-list">
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--============ panel two close =============-->
+            
+            <!-- ============panel four start============= -->
+            <div id="panel4" class="inner-card-panel">
+                <h3 class="title-top">ÜBERWEISUNGS EMPFÄNGER</h3>
+                <div class="title-area">
+                    <div class="title-left keyboard">
+                        <img src="assets/images/keyboard.png" alt="">
+                    </div>
+                    <div class="title-middle">
+                       
+                        <h2><input type="text" value="7901 256003 41730" disabled></h2>
+                    </div>
+                    <div class="title-right">
+                        <div class="currency">
+                            <span>$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="transection-area">
+                    <h3 class="tr-title">TRANSACTIONEN</h3>
+                    <div class="inner-transection">
+                        <ul class="tr-list">
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>EINZAHLUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign plus">+</span>
+                                    <div class="amount plus-amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tr-list-item">
+                                <div class="list-left"><span>ABBUCHUNG</span></div>
+                                <div class="list-right">
+                                    <span class="sign minus">-</span>
+                                    <div class="amount">
+                                        <h4>99.999,99<span> $</span></h4>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--============ panel four close =============-->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
